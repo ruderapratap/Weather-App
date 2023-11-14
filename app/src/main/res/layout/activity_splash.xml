@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#B5B0B2"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SplashActivity">
+
+   <com.airbnb.lottie.LottieAnimationView
+       android:id="@+id/lottieAnimation"
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       app:lottie_rawRes="@raw/weather"
+       app:lottie_loop="true"
+       app:lottie_autoPlay="true"
+       android:layout_centerInParent="true"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By\nRudera Pratap Singh"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_app"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lottieAnimation"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

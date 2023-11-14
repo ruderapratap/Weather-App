@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="weather_app">Weather App</string>
+    <string name="search_for_a_city">Search For A City</string>
+    <string name="today">Today</string>
+    <string name="min_23_22">Min:23.22</string>
+    <string name="max_22_23">Max:22.23</string>
+    <string name="sunny">Sunny</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="rudera_pratap_singh">Rudera Pratap Singh</string>
+    <string name="developed_by">Developed By</string>
+    <string name="sunset">Sunset</string>
+    <string name="_00_00">00:00</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="_0_00_m_p">0.00 m/p</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="condition">Condition</string>
+    <string name="sea">Sea</string>
+    <string name="_0_0">0.0%</string>
+    <string name="humidity">Humidity</string>
+    <string name="_31">31</string>
+</resources>
